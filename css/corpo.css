@@ -12,3 +12,9 @@
     width: 230px;
     height: 45px;
 }
+.corpo .visor input {
+    text-align: end;
+    width: 224px;
+    height: 37px;
+    background-color: white;
+}

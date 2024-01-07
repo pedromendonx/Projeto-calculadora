@@ -1,0 +1,39 @@
+.teclas {
+    width: 230px;
+    height: 230px;
+    text-align: center;
+    line-height: 2.7; 
+    background-color: bisque;
+
+}
+
+.teclas .lineOne button {
+    align-items: center;
+    height: 35px;
+    width: 50px;
+    
+}
+
+.teclas .lineTwo button {
+    align-items: center;
+    height: 35px;
+    width: 50px;
+}
+
+.teclas .lineThree button {
+    align-items: center;
+    height: 35px;
+    width: 50px;
+}
+
+.teclas .lineFour button {
+    align-items: center;
+    height: 35px;
+    width: 50px;
+}
+
+.teclas .lineFive button {
+    align-items: center;
+    height: 35px;
+    width: 50px;
+}

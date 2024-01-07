@@ -5,21 +5,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Calculadora </title>
     <link rel="stylesheet" href="css/corpo.css">
+    <link rel="stylesheet" href="css/teclas.css">
 </head>
 <body>
     <nav class="corpo">
         <div class="visor">
-
+            <input type="text" id="inpuText" placeholder="0">
         </div>
 
-        <div class="numbers">
+        <div class="teclas">
             <div class="lineOne">
                 <button id="porcetagem" alt="porcetagem">%</button>
                 <button id="allclear" alt="tudoLimpo">AC</button>
-                
+                <button id="RaizQuadrada" alt="RaizQuadrada">[]</button>
                 <button id="clear" alt="limpar"><<</button>
-
-
+            </div>
+            <div class="lineTwo">
+                <button class="numbers" alt="sete">7</button>
+                <button class="numbers" alt="oito">8</button>
+                <button class="numbers" alt="nove">9</button>
+                <button id="multiplicar" alt="multiplicar">*</button>
+            </div>
+            <div class="lineThree">
+                <button class="numbers" alt="quatro">4</button>
+                <button class="numbers" alt="cinco">5</button>
+                <button class="numbers" alt="seis">6</button>
+                <button id="subtrair" alt="subtrair">-</button>
+            </div>
+            <div class="lineFour">
+                <button class="numbers" alt="um">1</button>
+                <button class="numbers" alt="dois">2</button>
+                <button class="numbers" alt="três">3</button>
+                <button id="somar" alt="somar">+</button>
+            </div>
+            <div class="lineFive">
+                <button id="ponto" alt="ponto">.</button>
+                <button class="numbers" alt="zero">0</button>
+                <button id="igual" alt="igual">=</button>
+                <button id="dividir" alt="dividir">/</button>
             </div>
         </div>
     </nav>
